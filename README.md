@@ -25,11 +25,22 @@ A custom integration that pulls the latest posts from Bluesky, Mastodon, and X p
 
 ## Installation
 
+**HACS**
+1. HACS
+2. Three dots at the top right
+3. Custom repositories
+4. Repository - https://github.com/peggleg/social-feed > Type - Integration > Add
+5. Search for "Social Feed" > Install & Restart Home Assistant
+6. Install & Restart Home Assistant
+
+**Manual Installation**
 1. Copy the `custom_components/social_feed` folder into your Home Assistant `config/custom_components/` directory, so you end up with `config/custom_components/social_feed/`.
 2. Restart Home Assistant.
-3. Go to **Settings → Devices & Services → Add Integration** and search for **Social Feed**.
-4. Pick a platform from the dropdown, enter the handle (and bearer token for X), and submit.
-5. Repeat step 3–4 for each additional profile you want to follow.
+
+## Add feeds
+1. Go to **Settings → Devices & Services → Add Integration** and search for **Social Feed**.
+2. Pick a platform from the dropdown, enter the handle (and bearer token for X), and submit.
+3. Repeat step 1&2 for each additional profile you want to follow.
 
 ## Sensor attributes
 
