@@ -1,0 +1,13 @@
+{
+  "domain": "social_feed",
+  "name": "Social Feed",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/example/social_feed",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/example/social_feed/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}
