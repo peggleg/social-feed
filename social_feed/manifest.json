@@ -4,10 +4,10 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/example/social_feed",
+  "documentation": "https://github.com/peggleg/social_feed",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/example/social_feed/issues",
+  "issue_tracker": "https://github.com/peggleg/social-feed/issues",
   "requirements": [],
   "version": "1.0.0"
 }
